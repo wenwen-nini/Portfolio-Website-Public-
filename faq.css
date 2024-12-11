@@ -1,0 +1,105 @@
+* {
+    margin: 0x;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Header*/
+.header {
+    background-color: black;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 35px 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/*Navigation Bar*/
+.logo {
+    font-size: 42px;
+    color: white;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.logo:hover {
+    color:rgb(11, 220, 239);
+    text-shadow: 0 0 25px rgb(11, 220, 239),
+                 0 0 50px rgb(11, 220, 239);
+    transform: scale(1.1);
+}
+
+.navbar a{
+    font-size: 20px;
+    color: white;
+    font-weight: 600; 
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.7s ease;
+}
+
+.navbar a:hover, 
+.navbar a.active {
+    color: rgb(11, 220, 239);
+    border-bottom: 2px solid rgb(11, 220, 239);
+}
+
+/*Body*/
+.body {
+    background: white;
+    width: 100%;
+    min-height: 1000vh;
+    gap: 7em;
+    padding: 80px 8% 0;
+}
+
+/*Frequently Asked Questions, Services, and Privacy Policy*/
+div.faq {
+    max-width: 800px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+div.services {
+    max-width: 800px;
+    margin-left: 50px;
+}
+
+div.privacy {
+    max-width: 800px;
+    margin-left: 50px;
+}
+
+/*Styles for Fonts and List*/
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+p b {
+    color: black;
+    font-size: 40px;
+}
+
+p {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+ul li {
+    list-style-type: disc;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}

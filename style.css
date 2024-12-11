@@ -1,0 +1,529 @@
+* {
+    margin: 0x;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+/*Header*/
+.header {
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 35px 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 42px;
+    color: white;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.logo:hover {
+    color:rgb(11, 220, 239);
+    text-shadow: 0 0 25px rgb(11, 220, 239),
+                 0 0 50px rgb(11, 220, 239);
+    transform: scale(1.1);
+}
+
+/* Navigation Bar*/
+.navbar a{
+    font-size: 20px;
+    color: white;
+    font-weight: 600; 
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.7s ease;
+}
+
+.navbar a:hover, 
+.navbar a.active {
+    color: rgb(11, 220, 239);
+    border-bottom: 2px solid rgb(11, 220, 239);
+}
+
+.contact {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    transition: 0.5s ease;
+}
+
+.contact:hover {
+    background-color: rgb(11, 220, 239);
+    transform: scale(1.2); 
+}
+
+/* Section (Home) Part */
+.home {
+    background: rgb(242, 248, 248);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 80px 8% 0;
+}
+    
+div.home {
+    max-width: 800px;
+}
+
+.home h1 {
+    font-size: 62px;
+}
+.home h3 {
+    font-size: 42px;
+    line-height: 0.5;
+}
+
+.span {
+    color: rgb(11, 220, 239);
+}
+
+.home p {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0 30px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.home #second {
+    text-indent: 50px;
+}
+
+div.pic img{
+    border-radius: 50%;
+    width: 350px;
+    height: 70%;
+}
+
+/*scroll bar*/
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(11, 220, 239);
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+}
+
+/* Section (About Me) */
+.aboutme {
+    background: black;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7em;
+    padding: 80px 8%;
+}
+
+.aboutme img {
+    border-radius: 50%;
+    width: 350px;
+    height: 70%;
+    border: 7px solid rgb(11, 220, 239);
+    object-fit: cover;
+}
+
+div.aboutme {
+    display: block;
+    align-items: center;
+}
+
+.aboutme h3 {
+    color: white;
+    font-size: 42px;
+    margin: 0;
+}
+
+.aboutme span {
+    color: rgb(11, 220, 239);
+    text-shadow: 0, 0, 25px rgb(11, 220, 239),
+                 0, 0, 50px rgb(11, 220, 239);
+}
+
+.aboutme .skills {
+    color: white;
+    align-items: center;
+    border-top: 1px solid white;
+}
+
+.aboutme h5 {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.aboutme .skills li {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.aboutme .skills ul {
+    list-style-type: none;
+    padding-left: 20px;
+    max-width: 600px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.aboutme .skills ul li::before {
+    content: "●";
+    color: rgb(11, 220, 239);
+    font-size: 1.5em;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.aboutme b {
+    color: rgb(11, 220, 239);
+}
+
+.aboutme .first {
+    border-bottom: 1px solid white;
+}
+
+.aboutme .second {
+    border-bottom: 1px solid white;
+}
+  
+/* Section (Projects) Part */
+section.projects {
+    background: white;
+    min-height: 150vh;
+    gap: 7em;
+    padding: 60px 8% 0;
+}
+
+.projects h3 {
+    text-align: center;
+    font-size: 62px;
+}
+
+.projects h5 {
+    font-size: 25px;
+}
+
+.p {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects .list img {
+    max-width: 150px;
+    border-radius: 20px;
+}
+
+.projects .list {
+    padding: 20px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: 0.5s ease;
+}
+
+.projects .list:hover,
+.projects .list:active {
+    background-color: rgb(11, 220, 239);
+    transform: scale(1.05);
+}
+
+/*responsive for mobile*/
+@media (max-width: 768px) {
+    .background-section {
+        background-attachment: scroll;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .background-section {
+        background-attachment: scroll;
+    }
+}
+
+/* Section (SDG) Part */
+section.SDG {
+    min-height: 280vh;
+    gap: 7em;
+    padding: 60px 8% 0;
+    background-image: linear-gradient(rgba(0,0,0,0.75), 
+                                      rgba(0,0,0,0.75)), url(image2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.SDG {
+    margin-top: 25px;
+}
+
+.SDG .first {
+    margin-bottom: 50px;
+}
+
+.SDG .second {
+    margin-top: 50px;
+}
+
+.SDG h3, h6 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.SDG h3 {
+    font-size: 40px;
+    color: white;
+}
+
+.SDG h6 {
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+
+.SDG p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.SDG img {
+    max-width: 500px;
+}
+
+#second {
+    display: none;
+}
+
+.SDG .link {
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 4.5;
+    padding: 15px;
+    transition: 0.5s ease;
+}
+
+.SDG .link:hover {
+    background-color: rgb(11, 220, 239);
+}
+
+.SDG .second {
+    border-bottom: 1px solid white;
+}
+
+.SDG .third {
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+}
+
+.SDG .third p {
+    line-height: 30px;
+}
+
+.SDG .fourth {
+    margin-top: 20px;
+}
+
+
+.SDG .fourth a:link {
+    color: rgb(11, 220, 239);
+    border-bottom: 2px solid rgb(11, 220, 239);
+}
+
+.SDG .fourth a:visited {
+    color: blue;
+}
+
+.SDG .fourth a:active {
+    color: blue;
+}
+
+/* Section Contacts */
+section.contacts {
+    min-height: 100vh;
+    gap: 7em;
+    padding: 60px 8% 0;
+    background-color: #f8f8ff;
+}
+
+.contacts h3 {
+    font-size: 42px;
+    text-align: center;
+}
+
+.contacts span {
+    color:  rgb(11, 220, 239);
+}
+
+div.forms {
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+#fullname {
+    width: 60%;
+    padding: 15px 25px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#email {
+    width: 60%;
+    padding: 15px 25px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#number {
+    width: 60%;
+    padding: 15px 25px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#subject {
+    width: 60%;
+    padding: 15px 25px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#message {
+    width: 60%;
+    padding: 25px 25px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#message::placeholder {
+    text-align: left;
+    vertical-align: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+}
+
+#submit {
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    width: 150px;
+    margin-top: 20px;
+    padding: 17px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+#submit:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+/* Footer Part */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+/*Social Media of the student*/
+.footer .social {
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.footer .social a {
+    padding: 10px;
+    padding-bottom: 5px;
+    margin: 15px;
+    border: 2px solid rgb(11, 220, 239);
+    border-radius: 80%;
+    box-shadow: 0 0 3px rgb(11, 220, 239),
+                0 0 3px rgb(11, 220, 239);
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+/*FAQ, Services, and Privacy Policy*/
+.footer ul li a {
+    color:white;
+    font-weight: 400px;
+    font-size: 20px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+.footer ul li {
+    margin: 5px 0;
+    display: inline-block;
+    transition: 0.5s ease;
+}
+
+.footer ul li:hover {
+    border-bottom: 2px solid rgb(11, 220, 239);
+}
+.footer ul li a:hover {
+    color: rgb(11, 220, 239);
+    text-shadow: 0 0 3px rgb(11, 220, 239);
+}
+
+/*copyright*/
+.footer .copyright {
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
