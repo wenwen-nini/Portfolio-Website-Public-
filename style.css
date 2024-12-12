@@ -257,19 +257,6 @@ section.projects {
     transform: scale(1.05);
 }
 
-/*responsive for mobile*/
-@media (max-width: 768px) {
-    .background-section {
-        background-attachment: scroll;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .background-section {
-        background-attachment: scroll;
-    }
-}
-
 /* Section (SDG) Part */
 section.SDG {
     min-height: 280vh;
