@@ -9,7 +9,7 @@ ________________________________________________________________________________
 **General Instructions**
 1. **Launching the Website**
    
-  - Open _website.html_ to access the main page of the website.
+  - Open _index.html_ to access the main page of the website.
   - Ensure that all related files (e.g., CSS, JavaScript, images) are stored in their respective folders for the website to function correctly.
 2. **Image Connectivity**
     
@@ -23,15 +23,15 @@ ________________________________________________________________________________
 
 Below is a breakdown of the files included in the repository:
 
-  - **website.html**: The main file for opening the website. It serves as the landing page.
+  - **index.html**: The main file for opening the website. It serves as the landing page.
     
   - **list.html**: A supplementary page containing the FAQ, Services, and Privacy Policy sections. This file is linked to the main HTML file via navigation.
     
-  - **style.css**: The primary CSS file for styling the _website.html_. It includes the overall layout, colors, and typography.
+  - **style.css**: The primary CSS file for styling the _index.html_. It includes the overall layout, colors, and typography.
     
   - **faq.css**: A secondary CSS file specifically for styling the _list.html_ file.
     
-  - **script.js**: A JavaScript file used for adding interactivity to both _website.html_ and _list.html_.
+  - **script.js**: A JavaScript file used for adding interactivity to both _index.html_ and _list.html_.
     
       **Key functionality**: Highlights the active section in the navigation bar.
     
