@@ -49,7 +49,7 @@ ________________________________________________________________________________
   2. Footer links direct users to external social media pages and internal sections (FAQ, Services, Privacy Policy)
 - **Interactive Elements**
   
-  1. Input fields and buttons, including a submit button powered by Formspree, are fully operational.
+  1. Input fields and buttons, including a submit button powered by Formspree, are fully operational. (You may message me for verification of the form submitted if received). 
   2. Hover effects enhance the user experience.
 - **Commented Code**
   
